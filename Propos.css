@@ -1,0 +1,32 @@
+section{
+	background-color: white;
+	color: #1e499b;
+	text-align: center;
+	margin: 7% auto;
+	border-radius: 30px;
+	padding: 3% 2%;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+section h1{
+	text-align: center;
+	text-decoration: underline;
+	color: #ff6600;
+}
+#logoMOG{
+	width: 40%;
+}
+section div, ul{
+	font-size: 1.3em;
+}
+ul{
+	list-style-type: none;
+}
+#logoMCF{
+	width: 10%;
+}
+ul li{
+	margin-bottom: 5%;
+}
+section strong{
+	color: #ff6600;
+}

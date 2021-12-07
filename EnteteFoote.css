@@ -1,0 +1,171 @@
+body{
+	margin: 0px;
+	border: solid 25px white;
+	background-color: #f5f5f5;
+	color: #494e54;
+}
+header{
+	display: flex;
+	background-color: #1e499b;
+	color: white;
+}
+#logo{
+	width: 100%;
+}
+#headerdiv1{
+	width: 12.5%;
+}
+#headerdiv2{
+	margin: auto;
+}
+#headerdiv2 strong{
+	font-size: 250%;
+	text-shadow: 0px 0px 10px black;
+}
+nav{
+	margin: 2px;
+	display: flex;
+	background-color: white;
+	font-size: 1.5em;
+	margin-top: 15px;
+	font-weight: bold;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+nav a{
+	text-decoration: none;
+	color: #1e499b;
+}
+nav div{
+	width: 25%;
+	text-align: center;
+	padding: 10px;
+}
+nav .bordu{
+	border-right: solid #888888 3px;
+}
+nav div:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+nav div:focus-within{
+	background-color: rgba(255,102,0,0.7);
+}
+footer{
+	font-size: 1.3em;
+}
+#footer1{
+	border-top: solid 2px #f5f5f5;
+	color: #1e499b;
+}
+#footer1 div{
+	margin-top: 3%;
+}
+.input{
+	width: 75%;
+	height: 50px;
+	color: #1e499b;
+}
+#commentaire{
+	width: 75%;
+	height: 200px;
+	color: #1e499b;
+}
+#Envoyer{
+	padding: 1%;
+	width: 15%;
+	background-color: white;
+	color: #1e499b;
+	font-size: 100%;
+	min-width: 100px;
+}
+#Envoyer:hover{
+	background-color: rgba(0,0,0,0.1);
+}
+#Envoyer:focus{
+	background-color: rgba(255,102,0,0.7);
+}
+#contact{
+	font-size: 1.5em;
+}
+#footer2{
+	background-color: #1e499b;
+	padding: 2%;
+	padding-bottom: 0px;
+	color: white;
+	margin-top: 5%;
+}
+#footer2 #code{
+	margin-top: 2%;
+	text-align: center;
+}
+#footer2 #pointVert{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer img{
+	width: 40px;
+	height: 40px;
+}
+footer a{
+	margin: 4%;
+	color: white;
+	text-decoration: none;
+}
+#fin{
+	text-align: center;
+}
+@media screen and (min-width: 1000px){
+	#footer2 #footer2div1{
+		display: flex;
+		align-items: center;
+	}
+	#footer2 #footer2div1 div{
+		width: 50%;
+		text-align: center;
+	}
+    .input{
+    	font-size: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+	footer a{
+		margin: 2%;
+	}
+	#footer2 #footer2div1 div{
+		text-align: center;
+		width: 100%;
+		margin-top: 2%;
+	}
+    .input, #commentaire{
+    	width: 99%;
+    	font-size: 150%;
+    }
+    body{
+    	border: solid 20px white;
+    }
+}
+@media screen and (max-width: 700px){
+	#headerdiv2 strong{
+		font-size: 200%;
+	}
+	body{
+		border: solid 15px white;
+	}
+}
+@media screen and (max-width: 560px){
+	#headerdiv2 strong{
+		font-size: 135%;
+	}
+	#headerdiv1{
+		width: 18%;
+	}
+	nav{
+		font-size: 1em;
+	}
+	#footer2 #code{
+		font-size: 80%;
+	}
+	body{
+		border: none;
+	}
+}
